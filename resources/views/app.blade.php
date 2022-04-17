@@ -10,7 +10,7 @@
     <body class="py-6 flex flex-col items-center justify-between min-h-screen">
         <main role="main" class="flex flex-col justify-center items-center">
         @yield('content')
-        <!-- {{config('lewis.slogan')}} -->
+         <p class="text-lg text-red-600">{{config('lewis.slogan')}}</p>
         </main>
 
        <footer>
