@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title')</title>
+        {{-- autre methode --}}
+        {{-- <title>{{isset($title) ? config('app.name') .' | '. $title : config('app.name')}}</title> --}}
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="py-6 flex flex-col items-center justify-between min-h-screen">

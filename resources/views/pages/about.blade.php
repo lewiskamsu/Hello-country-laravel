@@ -3,6 +3,9 @@
 About Us |  {{config('app.name')}}
 @endsection
 
+{{-- autres methode --}}
+{{-- @extends('app',['title' => 'About Us']) --}}
+
 @section('content')
     <img src="{{asset('/images/image.jpeg')}}" alt="Image Nature" width="180px" heigth="150px"
     class="mt-10 rounded shadow-md">

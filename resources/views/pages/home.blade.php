@@ -1,6 +1,8 @@
 @extends('app')
 
 @section('title',config('app.name'))
+{{-- autre methode --}}
+{{-- @extends('app',['title' => config('app.name')]) --}}
 
 @section('content')
        <img src="{{asset('/images/cameroun_chine1.jpg')}}" alt="Relation Cameroun_chine" width="120px" heigth="120px"
