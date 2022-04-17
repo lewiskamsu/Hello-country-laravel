@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title')</title>
-        <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="py-6 flex flex-col items-center justify-between min-h-screen">
         <main role="main" class="flex flex-col justify-center items-center">
